@@ -1,0 +1,115 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id            String     @id @default(cuid())
+  name          String     @unique
+  pinHash       String
+  role          Role       @default(MEMBER)
+  customTargets Json?
+  mealWindows   Json?
+  activeDietId  String?
+  activeDiet    Diet?      @relation("ActiveDiet", fields: [activeDietId], references: [id])
+  diets         Diet[]     @relation("DietOwner")
+  meals         Meal[]
+  favorites     Favorite[]
+  createdAt     DateTime   @default(now())
+  updatedAt     DateTime   @updatedAt
+}
+
+enum Role {
+  ADMIN
+  MEMBER
+}
+
+model Diet {
+  id         String   @id @default(cuid())
+  userId     String
+  user       User     @relation("DietOwner", fields: [userId], references: [id], onDelete: Cascade)
+  name       String
+  sourceText String   @db.Text
+  sourceFile String?
+  parsed     Json
+  createdAt  DateTime @default(now())
+  meals      Meal[]
+  activeFor  User[]   @relation("ActiveDiet")
+
+  @@index([userId])
+}
+
+model Meal {
+  id             String           @id @default(cuid())
+  userId         String
+  user           User             @relation(fields: [userId], references: [id], onDelete: Cascade)
+  dietId         String?
+  diet           Diet?            @relation(fields: [dietId], references: [id], onDelete: SetNull)
+  imageFilename  String
+  mealType       MealType
+  eatenAt        DateTime
+  ingredients    MealIngredient[]
+  totalCalories  Float
+  totalProtein   Float
+  totalCarbs     Float
+  totalFats      Float
+  totalFiber     Float
+  totalSodium    Float            @default(0)
+  score          Float?
+  scoreBreakdown Json?
+  notes          String?
+  createdAt      DateTime         @default(now())
+  updatedAt      DateTime         @updatedAt
+
+  @@index([userId, eatenAt])
+  @@index([userId, mealType, eatenAt])
+}
+
+enum MealType {
+  BREAKFAST
+  LUNCH
+  DINNER
+  SNACK
+}
+
+model MealIngredient {
+  id            String  @id @default(cuid())
+  mealId        String
+  meal          Meal    @relation(fields: [mealId], references: [id], onDelete: Cascade)
+  name          String
+  grams         Float
+  cookingMethod String?
+  calories      Float
+  protein       Float
+  carbs         Float
+  fats          Float
+  fiber         Float
+  sodium        Float   @default(0)
+  sourceRef     String?
+
+  @@index([mealId])
+}
+
+model Favorite {
+  id              String    @id @default(cuid())
+  userId          String
+  user            User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  name            String
+  thumbnailFilename String?
+  ingredientsJson Json
+  totalCalories   Float
+  totalProtein    Float
+  totalCarbs      Float
+  totalFats       Float
+  totalFiber      Float
+  useCount        Int       @default(0)
+  lastUsedAt      DateTime?
+  createdAt       DateTime  @default(now())
+
+  @@index([userId])
+  @@index([userId, lastUsedAt])
+}
