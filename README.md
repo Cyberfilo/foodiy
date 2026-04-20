@@ -2,10 +2,15 @@
 
 Italian-aware meal tracking from a photo. Install on iPhone via Safari "Add to Home Screen". Family-sized (3–4 users), self-hosted on Railway.
 
-> **License note up front**: Foodiy is **source-available, not open-source**.
-> You're welcome to view, fork, and tinker with it for personal use, but
-> (1) you must **notify the author** if you fork or deploy it, and
-> (2) **commercial use requires prior written approval**. See [LICENSE](./LICENSE) for the full terms.
+> **License at a glance** (Foodiy is **source-available, not open-source** — see [LICENSE](./LICENSE) for the binding text):
+>
+> | Tier | Who it's for | Users/deployment | What's required |
+> |---|---|---|---|
+> | **Personal** | You + friends/family | **fewer than 10** | Tell me you're running it (one-line email or GitHub issue). |
+> | **Community Development** | Forks, collaboration, beta/staging | **fewer than 25** | Tell me when you materially change or publish changes. Stay non-commercial. |
+> | **Commercial** | Any paid/revenue/business use, incl. commercial enhancements | — | Pre-approval required. I must be both **informed AND included** as a participating party (attribution, revenue share, equity, or negotiated terms). |
+>
+> All contact: **filippo@menghi.dev** (subject prefix `[FOODIY-FSAL]` for notifications, `[FOODIY-FSAL COMMERCIAL REQUEST]` for commercial).
 
 ## Quickstart (local)
 
@@ -73,14 +78,18 @@ npm run typecheck     # tsc --noEmit
 
 Pull requests and issues are welcome. By submitting a contribution you agree that your contribution becomes part of Foodiy under the same [FSAL](./LICENSE) terms.
 
-If you'd like to fork, deploy, or build on Foodiy:
+How to pick a tier:
 
-- **Personal use (just you / your household)**: go ahead — just send a short notification so I know it's out there. Open a [GitHub issue](https://github.com/Cyberfilo/foodiy/issues/new?title=%5BFSAL%20Notification%5D) titled `[FSAL Notification]`, or email filo.gametech@gmail.com with subject `[FOODIY-FSAL]`. Include your name/handle, a link to your fork (if any), and how you're using it.
-- **Commercial use of any kind** (hosted product, service for non-household users, internal business use, bundling into paid software): you must get prior written approval. Send a request to filo.gametech@gmail.com with subject `[FOODIY-FSAL COMMERCIAL REQUEST]` describing what you want to do.
+- **Personal tier (friends & family, < 10 users per deployment)** — free. Just notify me once you deploy or fork:
+  - [Open a GitHub issue](https://github.com/Cyberfilo/foodiy/issues/new?title=%5BFSAL+Notification%5D) titled `[FSAL Notification]`, or
+  - email `filippo@menghi.dev` with subject `[FOODIY-FSAL]`.
+  - Include: your name/handle, a link to your fork (if any), which tier, and a one-line description of use.
+- **Community Development tier (forks, collaboration, dev/beta, < 25 users per deployment)** — free. Notify me on first fork and each time you publish material changes. Keep it non-commercial while in this tier.
+- **Commercial tier (any paid use, business use, or commercial improvement)** — requires prior written approval **and** inclusion of me as a participating party in the arrangement (attribution, revenue share, equity, or other negotiated terms). Send a request to `filippo@menghi.dev` with subject `[FOODIY-FSAL COMMERCIAL REQUEST]` describing intended use, scale, entity, and proposed inclusion terms.
 
-Any derivative work must keep the LICENSE file and include attribution: *Based on "Foodiy" by Filippo Mattia Menghi — https://github.com/Cyberfilo/foodiy — licensed under FSAL v1.0.*
+Any derivative work must keep the LICENSE file and include this attribution: *Based on "Foodiy" by Filippo Mattia Menghi — https://github.com/Cyberfilo/foodiy — licensed under FSAL v1.1.*
 
 ## License
 
-[Foodiy Source-Available License (FSAL) v1.0](./LICENSE).
+[Foodiy Source-Available License (FSAL) v1.1](./LICENSE).
 Copyright © 2026 Filippo Mattia Menghi. All rights reserved except as expressly granted by the license.
