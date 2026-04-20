@@ -23,7 +23,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "prisma generate && next build",
-    "start": "prisma migrate deploy && next start -p ${PORT:-3000}",
+    "start": "prisma db push --skip-generate --accept-data-loss && next start -p ${PORT:-3000}",
     "start:local": "next start",
     "lint": "next lint",
     "typecheck": "tsc --noEmit",
