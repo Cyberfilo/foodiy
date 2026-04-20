@@ -1,0 +1,205 @@
+Foodiy Source-Available License (FSAL) v1.0
+============================================
+
+Copyright (c) 2026 Filippo Mattia Menghi <filo.gametech@gmail.com>
+GitHub: https://github.com/Cyberfilo/foodiy
+
+This is NOT an OSI-approved open-source license. It is a source-available
+license with notification and commercial-use restrictions. Please read in full
+before using this software.
+
+------------------------------------------------------------------------------
+1. DEFINITIONS
+------------------------------------------------------------------------------
+
+"The Software" means the source code, documentation, configuration, and
+assets contained in this repository, and any portion thereof.
+
+"The Author" means Filippo Mattia Menghi, the copyright holder, reachable at
+filo.gametech@gmail.com or via GitHub issues at
+https://github.com/Cyberfilo/foodiy/issues.
+
+"You" (or "Your") means the individual or entity exercising rights under
+this license.
+
+"Derivative Work" means any work that incorporates, copies, modifies,
+adapts, translates, or builds upon The Software, in whole or in part,
+including but not limited to forks, modified redistributions, hosted
+instances, and reimplementations that copy substantial logic, structure,
+or assets from The Software.
+
+"Commercial Use" means any use of The Software or a Derivative Work that:
+  (a) is bundled with, incorporated into, or provided as a product or
+      service offered for sale, rent, subscription, or any other form of
+      monetary consideration;
+  (b) is hosted, deployed, or otherwise made available to users who are
+      not members of Your immediate household, where "immediate household"
+      means persons living at Your primary residence;
+  (c) is intended, in whole or in part, to generate revenue, advertising
+      income, sponsorship, or any other monetary or non-monetary benefit
+      beyond personal use;
+  (d) is performed by, for, or on behalf of a for-profit entity, or
+      by an individual acting in a commercial capacity; or
+  (e) is used internally by a for-profit entity for business operations.
+
+------------------------------------------------------------------------------
+2. GRANT OF RIGHTS
+------------------------------------------------------------------------------
+
+Subject to the conditions of this license, The Author hereby grants You a
+worldwide, royalty-free, non-exclusive, non-transferable, revocable license
+to:
+
+  (a) view The Software;
+  (b) fork, clone, and download The Software;
+  (c) modify The Software for Your personal, non-commercial use;
+  (d) run The Software on infrastructure You control for personal,
+      non-commercial use, including use by members of Your immediate
+      household.
+
+No other rights are granted. All rights not expressly granted are reserved
+by The Author.
+
+------------------------------------------------------------------------------
+3. MANDATORY NOTIFICATION
+------------------------------------------------------------------------------
+
+If You fork, clone with intent to modify, create a Derivative Work from,
+deploy, or host The Software or any Derivative Work, You must notify The
+Author in writing within thirty (30) days of first such action.
+
+The notification must include:
+
+  (i)   Your legal name or GitHub username (or both);
+  (ii)  a URL pointing to Your fork or Derivative Work, where applicable;
+  (iii) a brief, good-faith description of how You are using or intend to
+        use The Software or the Derivative Work;
+  (iv)  Your contact email address.
+
+Notification is satisfied by any ONE of the following methods:
+
+  - An email to filo.gametech@gmail.com with the subject line beginning
+    "[FOODIY-FSAL]".
+  - Opening a GitHub issue at
+    https://github.com/Cyberfilo/foodiy/issues with the title beginning
+    "[FSAL Notification]" and containing the information above.
+
+If You materially change how You use The Software (for example, from
+personal tinkering to a hosted deployment for a group), You must send a
+supplemental notification within thirty (30) days of the change.
+
+------------------------------------------------------------------------------
+4. COMMERCIAL USE REQUIRES PRIOR WRITTEN APPROVAL
+------------------------------------------------------------------------------
+
+Commercial Use of The Software or any Derivative Work is PROHIBITED unless
+The Author has granted You prior written permission.
+
+To request permission, send an email to filo.gametech@gmail.com with the
+subject line beginning "[FOODIY-FSAL COMMERCIAL REQUEST]" and including:
+
+  (i)   a clear description of Your intended Commercial Use;
+  (ii)  the entity that will conduct the Commercial Use;
+  (iii) the expected scale of the Commercial Use (users, revenue, scope);
+  (iv)  any proposed attribution, fee, or revenue-share terms.
+
+The Author may grant, decline, or condition such permission at The Author's
+sole discretion. Absence of a written response within sixty (60) days of
+Your request is to be treated as a denial, not as permission. Silence is
+NOT consent.
+
+Permission, if granted, applies only to the specific Commercial Use
+described in the request, and is not transferable to other uses, entities,
+or successors without a new approval.
+
+------------------------------------------------------------------------------
+5. ATTRIBUTION AND LICENSE PROPAGATION
+------------------------------------------------------------------------------
+
+Any Derivative Work must:
+
+  (a) retain this LICENSE file, unmodified, in its source tree;
+  (b) include, in its README or equivalent primary documentation, the
+      notice: 'Based on "Foodiy" by Filippo Mattia Menghi
+      (https://github.com/Cyberfilo/foodiy), licensed under the Foodiy
+      Source-Available License (FSAL) v1.0.';
+  (c) remain subject to this license, including the notification and
+      commercial-use-approval obligations in Sections 3 and 4.
+
+You may not sublicense, relicense, or change the license of a Derivative
+Work.
+
+------------------------------------------------------------------------------
+6. NO TRADEMARK LICENSE
+------------------------------------------------------------------------------
+
+This license does not grant any rights in the name "Foodiy", the Foodiy
+logo, or any other trademarks, service marks, or trade names of The Author.
+Derivative Works must use a distinct name and may not imply endorsement by
+The Author without separate written permission.
+
+------------------------------------------------------------------------------
+7. TERMINATION
+------------------------------------------------------------------------------
+
+Any breach of Sections 3, 4, 5, or 6 of this license automatically
+terminates Your rights under this license, without notice. Upon
+termination, You must cease all use, delete all copies (including
+Derivative Works) from systems under Your control, and, if You have
+distributed Derivative Works, take reasonable steps to notify downstream
+users of the termination.
+
+The Author may, at The Author's discretion, reinstate Your rights upon
+cure of the breach and written confirmation of compliance.
+
+------------------------------------------------------------------------------
+8. DISCLAIMER OF WARRANTY
+------------------------------------------------------------------------------
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND NON-INFRINGEMENT. THE AUTHOR
+DOES NOT WARRANT THAT THE SOFTWARE WILL BE ERROR-FREE, SECURE, OR
+UNINTERRUPTED, OR THAT IT WILL MEET YOUR REQUIREMENTS.
+
+------------------------------------------------------------------------------
+9. LIMITATION OF LIABILITY
+------------------------------------------------------------------------------
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE
+AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY,
+OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGE.
+
+------------------------------------------------------------------------------
+10. GOVERNING LAW
+------------------------------------------------------------------------------
+
+This license shall be governed by and construed in accordance with the laws
+of Italy, without regard to conflict-of-law principles. The courts of Italy
+shall have exclusive jurisdiction over any dispute arising from or relating
+to this license.
+
+------------------------------------------------------------------------------
+11. ENTIRE AGREEMENT
+------------------------------------------------------------------------------
+
+This license constitutes the entire agreement between You and The Author
+regarding The Software and supersedes any prior or contemporaneous
+understandings, whether written or oral. No amendment to this license is
+effective unless in writing and signed (or electronically acknowledged) by
+The Author.
+
+------------------------------------------------------------------------------
+
+Short summary (NOT legally binding; the text above controls):
+  You can look at, fork, and tinker with Foodiy for personal use.
+  If you fork it or run it beyond your own household, you MUST tell me.
+  Commercial use requires asking me first and getting a written "yes".
+  Keep this LICENSE and credit the author in any derivative.
+
+Questions or approval requests: filo.gametech@gmail.com

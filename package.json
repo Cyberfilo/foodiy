@@ -2,6 +2,21 @@
   "name": "foodiy",
   "version": "0.1.0",
   "private": true,
+  "description": "Italian-aware meal tracking from a photo. A family-sized PWA hosted on Railway.",
+  "author": {
+    "name": "Filippo Mattia Menghi",
+    "email": "filo.gametech@gmail.com",
+    "url": "https://github.com/Cyberfilo"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "homepage": "https://github.com/Cyberfilo/foodiy#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cyberfilo/foodiy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Cyberfilo/foodiy/issues"
+  },
   "engines": {
     "node": ">=20.0.0"
   },
