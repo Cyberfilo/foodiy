@@ -16,10 +16,12 @@ class ToastBus {
   private list: Toast[] = [];
   private listeners = new Set<ToastListener>();
 
-  subscribe(fn: ToastListener) {
+  subscribe(fn: ToastListener): () => void {
     this.listeners.add(fn);
     fn(this.list);
-    return () => this.listeners.delete(fn);
+    return () => {
+      this.listeners.delete(fn);
+    };
   }
 
   push(text: string, kind: ToastKind = 'info') {
