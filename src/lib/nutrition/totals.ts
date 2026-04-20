@@ -9,8 +9,10 @@ export interface IngredientLike {
   sodium?: number;
 }
 
-export function sumIngredients(list: IngredientLike[]): Nutrition & { sodium: number } {
-  return list.reduce(
+type Totals = Nutrition & { sodium: number };
+
+export function sumIngredients(list: IngredientLike[]): Totals {
+  return list.reduce<Totals>(
     (acc, i) => ({
       calories: acc.calories + (i.calories || 0),
       protein: acc.protein + (i.protein || 0),
