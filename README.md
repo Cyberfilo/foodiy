@@ -89,7 +89,3 @@ How to pick a tier:
 
 Any derivative work must keep the LICENSE file and include this attribution: *Based on "Foodiy" by Filippo Mattia Menghi — https://github.com/Cyberfilo/foodiy — licensed under FSAL v1.1.*
 
-## License
-
-[Foodiy Source-Available License (FSAL) v1.1](./LICENSE).
-Copyright © 2026 Filippo Mattia Menghi. All rights reserved except as expressly granted by the license.
